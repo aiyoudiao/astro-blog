@@ -1,0 +1,21 @@
+---
+import BaseHead from "../components/BaseHead.astro";
+import Header from "../components/Header.astro";
+import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
+
+---
+
+<html lang="zh-CN">
+  <head>
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+  </head>
+  <body>
+    <Header />
+    <h1>Archive 归档</h1>
+    <ul>
+      <li>2025-07-31</li>
+      <li>2025-07-30</li>
+      <li>2025-07-29</li>
+    </ul>
+  </body>
+</html>
