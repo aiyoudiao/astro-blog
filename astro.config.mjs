@@ -28,4 +28,7 @@ export default defineConfig({
       API_SECRET: envField.string({ context: "server", access: "secret" }),
     },
   },
+  devToolbar: {
+    enabled: true,
+  },
 });
