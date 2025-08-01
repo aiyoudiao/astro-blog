@@ -1,14 +1,17 @@
 ---
 import { SITE_TITLE } from '../consts';
+import Hamburger from './Hamburger.astro';
 import HeaderLink from './HeaderLink.astro';
 ---
 
 <header>
+	<Hamburger/>
 	<nav>
 		<h2><a href="/">{SITE_TITLE}</a></h2>
 		<div class="internal-links">
 			<HeaderLink href="/">首页</HeaderLink>
 			<HeaderLink href="/blog">文章</HeaderLink>
+			<HeaderLink href="/tags">标签</HeaderLink>
 			<HeaderLink href="/archive">归档</HeaderLink>
 			<HeaderLink href="/about">更多</HeaderLink>
 			<HeaderLink href="https://aiyoudiao.netlify.app/" target="_blank">在线</HeaderLink>
