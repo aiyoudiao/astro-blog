@@ -18,6 +18,7 @@ YAML 前置内容：https://assemble.io/docs/YAML-front-matter.html
 
 [`getStaticPaths()` API 文档](https://docs.astro.build/zh-cn/reference/routing-reference/#getstaticpaths)
 
+[Astro 中的客户端 `<script>`](https://docs.astro.build/zh-cn/guides/client-side-scripts/)
 
 ## RSS
 
